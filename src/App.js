@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Friends from './routes/Friends'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Find from './routes/Find';
+import Chats from './routes/Chats';
+import More from './routes/More';
+import Chatting from './routes/Chatting';
+import Profile from './routes/Profile';
+
+
+
 
 function App() {
+ 
   return (
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+      <Route path='/' element={<Friends />} />
+      <Route path='/friends' element={<Friends />} />
+      <Route path='/chats' element={<Chats />} />
+      <Route path='/find' element={<Find />} />
+      <Route path='/more' element={<More />} />
+      <Route path='/profile' element={<Profile />} />
+      <Route path='/chatting' element={<Chatting />} />
+      </Routes>
     </div>
+    </BrowserRouter>
   );
 }
 

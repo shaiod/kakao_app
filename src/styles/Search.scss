@@ -1,0 +1,18 @@
+
+.search_box{display: flex; flex-direction: row;
+    justify-content: center; align-items: center;
+    height: 7.3%; min-height: 53px;
+    margin-top: 65px;
+    .search_inner{display: flex; flex-direction: row;
+        justify-content: space-between; width: 88%; height: 50%;
+        background-color: #f1f2f4; 
+        border: none; border-radius: 5px;
+        padding: 5px;
+        .blind{display: none;}
+        .ico{font-size: 16px; color: #bebcc1;
+        align-self: center; margin-left: 15px;}
+        input{width: 90%; background: transparent;
+        border: none; padding: 0 15px;
+        &::placeholder{text-align: center; }
+        &:focus{outline: none;}
+        }}}

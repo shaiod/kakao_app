@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.blind{display: none;}
+
+.my-profile h2{font-size: 12px; color: #ccc; 
+    padding: 5px 10px;
+    border-top: 1px solid #ebebeb; 
+    border-bottom: 1px solid #ebebeb;}
+    
+.main-section{
+    ul{display: flex; flex-direction: column;
+    list-style: none;
+    li{margin : 10px;
+    a{display: flex; flex-direction: row;
+    text-decoration: none; color: #000;
+    font-size: 14px;align-items: center; }}}
+ .profile-name{flex:auto; margin-left: 10px;}
+ .profile-messages{height: 30px; line-height: 30px;
+    margin-right: 15px; padding: 0 10px;
+    border-radius: 5px;
+    background: #f0f0f0; font-size: 10px; color: #8e9399;}}
+
+img{object-fit: cover;
+width: 50px;
+height: 50px;
+border-radius: 20px;
+}
