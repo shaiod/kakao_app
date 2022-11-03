@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/kakao_app.git/static/css/main.9a711183.css",
-    "main.js": "/kakao_app.git/static/js/main.785823d2.js",
-    "static/js/787.bedca776.chunk.js": "/kakao_app.git/static/js/787.bedca776.chunk.js",
-    "static/media/wallpaper_20211209175436_202009_type1_1440.jpg": "/kakao_app.git/static/media/wallpaper_20211209175436_202009_type1_1440.a345d3d68f77637a825a.jpg",
-    "static/media/style_5ac230eed81c4.jpg": "/kakao_app.git/static/media/style_5ac230eed81c4.0f2a1f7eb4acf2a6d453.jpg",
-    "static/media/kakaofriends.png": "/kakao_app.git/static/media/kakaofriends.84375bb9f89d79ccd760.png",
-    "static/media/path.png": "/kakao_app.git/static/media/path.7d00edf73f07bdcecc6d.png",
-    "static/media/kakaostory.png": "/kakao_app.git/static/media/kakaostory.572f3ce5bf10fbdaac9d.png",
-    "index.html": "/kakao_app.git/index.html",
-    "main.9a711183.css.map": "/kakao_app.git/static/css/main.9a711183.css.map",
-    "main.785823d2.js.map": "/kakao_app.git/static/js/main.785823d2.js.map",
-    "787.bedca776.chunk.js.map": "/kakao_app.git/static/js/787.bedca776.chunk.js.map"
+    "main.css": "/Kakao_2022.git/static/css/main.637c4be0.css",
+    "main.js": "/Kakao_2022.git/static/js/main.49fe00b6.js",
+    "static/js/787.bedca776.chunk.js": "/Kakao_2022.git/static/js/787.bedca776.chunk.js",
+    "static/media/wallpaper_20211209175436_202009_type1_1440.jpg": "/Kakao_2022.git/static/media/wallpaper_20211209175436_202009_type1_1440.a345d3d68f77637a825a.jpg",
+    "static/media/style_5ac230eed81c4.jpg": "/Kakao_2022.git/static/media/style_5ac230eed81c4.0f2a1f7eb4acf2a6d453.jpg",
+    "static/media/kakaofriends.png": "/Kakao_2022.git/static/media/kakaofriends.84375bb9f89d79ccd760.png",
+    "static/media/wallpaper.jpg": "/Kakao_2022.git/static/media/wallpaper.0cc5314c266ce0ca424b.jpg",
+    "static/media/path.png": "/Kakao_2022.git/static/media/path.7d00edf73f07bdcecc6d.png",
+    "static/media/kakaostory.png": "/Kakao_2022.git/static/media/kakaostory.572f3ce5bf10fbdaac9d.png",
+    "index.html": "/Kakao_2022.git/index.html",
+    "main.637c4be0.css.map": "/Kakao_2022.git/static/css/main.637c4be0.css.map",
+    "main.49fe00b6.js.map": "/Kakao_2022.git/static/js/main.49fe00b6.js.map",
+    "787.bedca776.chunk.js.map": "/Kakao_2022.git/static/js/787.bedca776.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a711183.css",
-    "static/js/main.785823d2.js"
+    "static/css/main.637c4be0.css",
+    "static/js/main.49fe00b6.js"
   ]
 }
