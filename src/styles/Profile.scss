@@ -2,11 +2,11 @@
 
 .main.profile-wrap {
  height: calc(100% - 10px);
- padding-top: 30;
- .bgl{position: relative; top: -20px;
+ .bgl{position: relative; top: -30px;
   list-style: none; font-size: 20px;
+  cursor: pointer;
   .close{float:left; font-size: 20px;
-  margin-left: 10px; color: #fff;
+  margin-left: -35px; color: #fff;
   cursor: pointer; background: none;
   border: none;
   }
@@ -15,7 +15,8 @@
 
  }
  .background {
-   height: 54vh;
+   margin-top: -50px;
+   height: 50vh;
    background: url(../images/style_5ac230eed81c4.jpg) no-repeat 0 0;
    background-size: cover;
   }
@@ -27,19 +28,30 @@
   position: relative;
   width: 100%;
   .profile-img{
-    overflow: hidden;
+    cursor: pointer;
     position: absolute;
     top: -65px;
    img{object-fit: cover;
     width: 100px;
     height: 100px;
-    border-radius: 40px;}
+    margin-left: 3px;
+    border-radius: 40px;
+    &:hover{
+      filter:sepia(30%);
+      transition: all ease 0.8;}}
   }
   .profile-cont {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 45px;
+    .logOut{
+      position:relative;
+      bottom: 48px;
+      left: 10px;
+      border: 1px solid #000;
+      padding: 5px;
+    }
     .profile-name {
       font-size: 16px;
     }
@@ -52,6 +64,7 @@
   }
   .profile-menu {
     display: flex; list-style: none;
+    margin-left: 20px; margin-top:-10px;
     li {
       margin: 0 5px;
     }
@@ -69,7 +82,7 @@
       width: 50px;
       height: 50px;
       line-height: 50px;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
       border-radius: 50%;
       background-color: #f2f2f2;
       color: #513736;

@@ -1,0 +1,26 @@
+
+.container{
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+margin-right: 40px;
+ul{list-style: none; 
+}
+.authInput{width: 300px; height: 40px;
+margin-bottom: 1px; border: none;
+&:focus{outline: 2px solid #513736;}}}
+
+.authSubmit{margin-top: 10px;
+    background: #513736; color: #fff;
+    text-align: center; cursor: pointer;}
+  
+
+.authError{color: tomato; text-align: center; font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 10px;}
+
+.authSwitch{display: block;
+    margin-top: 10px; margin-bottom: 40px;
+    font-size: 12px; text-decoration: underline;
+    color: #000; cursor: pointer;}

@@ -1,6 +1,20 @@
 .ico_1{color: #fff; font-size: 14px;
     margin-top: 5px;}
 
+.main-sectionC{margin-left: -40px;
+    ul{display: flex; flex-direction: column;
+    list-style: none;
+    li{margin : 10px;
+    a{display: flex; flex-direction: row;
+    text-decoration: none; color: #000;
+    font-size: 14px;align-items: center; }}}
+ .profile-name{flex:auto; margin-left: 10px;
+    font-size: 10px;}
+ .profile-messages{height: 30px; line-height: 30px;
+    margin-right: 15px; padding: 0 10px;
+    border-radius: 5px;
+    background: #f0f0f0; font-size: 10px; color: #8e9399;}}
+
 .chat_fa_btn{margin-top:50px;position: fixed; right: 20px; bottom: 80px;
     a{display: flex; justify-content: center;
     align-items: center; width: 60px; height: 60px;

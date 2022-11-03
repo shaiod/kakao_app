@@ -45,7 +45,7 @@ function Chats() {
     <>
     <Header className={'chats'} head={'Chats'} span={<GoTriangleDown className="ico_1"/>}leftitem={'Edit'} />
     <Search />
-    <section className="main-section">
+    <section className="main-sectionC">
           <header className="blind"><h2>Friends</h2></header>
           <ul>
             {profile.map((chat, idx) => (

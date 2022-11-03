@@ -3,7 +3,7 @@
 /* find_method */
 
 .find_method{display: flex; flex-direction: row;
-    margin-top: px;
+    margin-top: -50px; margin-left: -40px;
     align-items: center; height: 90px; background: #eee;
    li{overflow: hidden; flex: 1; 
     a{display: flex; flex-direction: column;
@@ -20,10 +20,12 @@
 
 /* recommend_section */
 .recommend-section
-    .find-friends h2{height: 22px; line-height: 22px;
+    .find-friends h2{height: 15px; line-height: 15px;
     text-indent: 15px; color: #ccc;
     font-size: 12px;}
     .rec-friends{
-    li{height: 54px; line-height: 54px;
+    li{list-style: none;
+    margin-left:-50px;
+    height: 54px; line-height: 54px;
     text-align: center; color: #ccc; font-size: 14px;
     border: 1px solid #ebebeb;}}
