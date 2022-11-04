@@ -50,5 +50,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://shaiod.github.io/Kakao_2022.git/"
+  "homepage": "https://shaiod.github.io/kakao_app.git/",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
