@@ -51,7 +51,5 @@
     ]
   },
   "homepage": "https://shaiod.github.io/kakao_app.git/",
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
-  }
+  
 }
