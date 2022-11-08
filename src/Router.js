@@ -1,5 +1,4 @@
 
-import React, { useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Auth from './routes/Auth';
 import AuthForm from './components/AuthForm';
