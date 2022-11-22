@@ -1,6 +1,6 @@
 /* header.css */
 
-header{position: fixed; left: 0; top: 0;
+header{position: fixed; left: 0; top: 0; z-index:1;
     width: 100%; height: 64px;
     display: flex; flex-direction: column; background: #513736;
     color: #fff; padding: 0 15px; box-sizing: border-box;}

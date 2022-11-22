@@ -16,7 +16,8 @@
 /* main */
 .chatting{
     main{display: flex; flex-direction: column;
-    height: 505px;
+    object-fit: cover;
+    height: 100vh;
     margin-top:10px;
     background: url(../images/wallpaper_20211209175436_202009_type1_1440.jpg) no-repeat 0 0;
     background-size: cover;
